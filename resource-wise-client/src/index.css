@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("./src/assets/fonts/Outfit-Light.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("./src/assets/fonts/Outfit-Regular.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("./src/assets/fonts/Outfit-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+.leaflet-container {
+    width: calc(100% - 4vmin);
+    height: 40vmin;
+    margin-left: 2vmin;
+}
